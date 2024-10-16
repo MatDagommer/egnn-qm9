@@ -1,0 +1,21 @@
+name: egnn-qm9
+channels:
+  - conda-forge
+  - pyg
+dependencies:
+  - python=3.10
+  - black
+  - flake8
+  - isort
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ipykernel
+  - pytorch
+  - egnn-pytorch
+  - pyg # pytorch-geometric
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
